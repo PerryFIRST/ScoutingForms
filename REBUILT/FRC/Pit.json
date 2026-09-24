@@ -1,0 +1,268 @@
+[
+  {
+    "type": "header",
+    "label": "DRIVE BASE"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "subheader",
+    "label": "REMEMBER TO TAKE A PHOTO OF THE ROBOT IT IS NECCESSARY COME BACK LATER IF YOU NEED TO OR FIND THE ROBOT ON THE FIELD (Scroll up and click 'Upload main photo'"
+  },
+  {
+    "type": "textblock",
+    "label": "Would you eat a ghostpepper pizza?(Actually ask this *Cough-Kaylee-Cough*)",
+    "id": "Yes, but for the plot."
+  },
+  {
+    "type": "multiselect",
+    "label": "Drive base type(Observation)",
+    "options": [
+      "Swerve",
+      "Tank",
+      "Mecanum"
+    ],
+    "id": "driveBaseType"
+  },
+  {
+    "type": "checkbox",
+    "label": "Do they have a rotating turret?",
+    "id": "turret"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they go under the trench?",
+    "id": "canundertrench"
+  },
+  {
+    "type": "subheader",
+    "label": "What driver station do they prefer to be in?"
+  },
+  {
+    "type": "checkbox",
+    "label": "Outpost driver station?",
+    "id": "TopStation"
+  },
+  {
+    "type": "checkbox",
+    "label": "Middle driver station?",
+    "id": "MiddleStation"
+  },
+  {
+    "type": "checkbox",
+    "label": "Outside driver station?",
+    "id": "BottomStation"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "header",
+    "label": "AUTONOMOUS PERIOD"
+  },
+  {
+    "type": "slider",
+    "label": "How many Fuel can they score during Auto?",
+    "id": "numFuelAuto",
+    "options": {
+      "min": 0,
+      "max": 150,
+      "step": 5
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "slider",
+    "label": "How many Autonomous routines do they have?",
+    "id": "numAutoRoutines",
+    "options": {
+      "min": 0,
+      "max": 20,
+      "step": 1
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they climb in Auto",
+    "id": "canclimbAuto"
+  },
+  {
+    "type": "checkbox",
+    "label": "Do they get Fuel from the Depot in Auto?",
+    "id": "candepotauto"
+  },
+  {
+    "type": "checkbox",
+    "label": "Do they get Fuel from the Outpost in Auto?",
+    "id": "canfueloutpostauto"
+  },
+  {
+    "type": "subheader",
+    "label": "Where do They Start In Auto?"
+  },
+  {
+    "type": "checkbox",
+    "label": "Outpost Side",
+    "id": "StartOutpost"
+  },
+  {
+    "type": "checkbox",
+    "label": "Center",
+    "id": "StartCenter"
+  },
+  {
+    "type": "checkbox",
+    "label": "Outside Side",
+    "id": "StartFar"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "subheader",
+    "label": "Fuel Intake"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they pick up Fuel from the ground?",
+    "id": "canPickupfuelGround"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they pick up Fuel from the Outpost?",
+    "id": "canPickupFuelOutpost"
+  },
+  {
+    "type": "slider",
+    "id": "intakeHoldingAbility",
+    "label": "How much Fuel can your robot hold at once in its hopper?",
+    "options": {
+      "min": 0,
+      "max": 100,
+      "step": 5
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "slider",
+    "id": "TimeDurationPickUp",
+    "label": "How long does it take you to fill your hopper? (seconds)",
+    "options": {
+      "min": 0,
+      "max": 15,
+      "step": 0.5
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "slider",
+    "id": "TimeDurationShoot",
+    "label": "How long does it take you to shoot a hoppers worth of Fuel? (seconds)",
+    "options": {
+      "min": 0,
+      "max": 15,
+      "step": 0.5
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they feed our Alliance Zone by SHOOTING Fuel from the Neutral zone to our Alliance Zone?",
+    "id": "canshootfeed"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they shoot and move at the same time?",
+    "id": "canshootandmove"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "header",
+    "label": "END GAME / TOWER"
+  },
+  {
+    "type": "subheader",
+    "label": "Do they climb in Auto?"
+  },
+  {
+    "type": "checkbox",
+    "label": "Climb then keep scoring Fuel?",
+    "id": "shootclimb"
+  },
+  {
+    "type": "checkbox",
+    "label": "Keep Scoring?",
+    "id": "KeepScoring"
+  },
+  {
+    "type": "checkbox",
+    "label": "Climb L1?",
+    "id": "L1Climb"
+  },
+  {
+    "type": "checkbox",
+    "label": "Climb L2?",
+    "id": "L2Climb"
+  },
+  {
+    "type": "checkbox",
+    "label": "Climb L3?",
+    "id": "L3Climb"
+  },
+  {
+    "type": "subheader",
+    "label": "What direction do they prefer to climb in (View from Driver's Station)?"
+  },
+  {
+    "type": "checkbox",
+    "label": "Left Climbing Position?",
+    "id": "LeftClimb"
+  },
+  {
+    "type": "checkbox",
+    "label": "Middle Climbing Position?",
+    "id": "MiddleClimb"
+  },
+  {
+    "type": "checkbox",
+    "label": "Right Climb Position?",
+    "id": "RightClimb"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "header",
+    "label": "FINAL THOUGHTS"
+  },
+  {
+    "type": "textblock",
+    "label": "What is their preferred strategy during the Quals?(Offence, Defence, Feed, ETC...)",
+    "id": "preferredStrategy"
+  },
+  {
+    "type": "textblock",
+    "label": "Does that change for Playoffs?",
+    "id": "PlayoffStrategy"
+  },
+  {
+    "type": "slider",
+    "variant": "standard",
+    "label": "How Friendly Is the Team?(Observation)",
+    "id": "howFriendly",
+    "options": {
+      "min": 1,
+      "max": 5,
+      "step": 0.5
+    }
+  },
+  {
+    "type": "textblock",
+    "label": "FINAL THOUGHTS / NOTES (Do not make this take 5 years Lucas B)",
+    "id": "notes"
+  }
+]
